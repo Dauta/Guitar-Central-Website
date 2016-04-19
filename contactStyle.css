@@ -1,0 +1,44 @@
+table#form_table
+{
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 40%;
+}
+div#main
+{
+    margin-top: 40px;
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 100px;
+}
+input[type=text], input[type=password], textarea
+{
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    background-color: #f8fafa;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid black 1px;
+}
+textarea{
+    resize: vertical;
+}
+input[type=submit]
+{
+    margin-left: 20%;
+    width: 60%;
+    background-color: coral;
+    padding: 10px 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: solid black 1px;
+}
+input[type=submit]:hover
+{
+    background-color: #C0392B;
+}
+input[type=submit]:active
+{
+    background-color: #ff4731;
+}

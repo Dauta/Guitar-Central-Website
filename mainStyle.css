@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #393d47;
+    min-width: 900px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+}
+#header{
+    width: 100%;
+    height: 200px;
+    background-color: #393d47;
+    padding-bottom: 0;
+}
+#banner{
+    padding: 10px;
+    width: 800px;
+    margin: 0 auto;
+}
+#bannerMsg{
+    text-align: center;
+    float: left;
+    color: white;
+    margin: 0 16%;
+    padding: 0;
+}
+#bannerImg1{
+    width: 55px;
+    height: 50px;
+    float: left;
+}
+#bannerImg2{
+    width: 55px;
+    height: 50px;
+    clear: both;
+}
+#menu{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-width: 600px;
+    margin: 0 auto;
+    background-color: coral;
+    height: 60%;
+}
+#menuWrapper{
+    width:90%;
+    margin: 0 auto;
+}
+.menuItem{
+    width: 15%;
+    min-width: 100px;
+    height: 50px;
+    float: left;
+    background-color: rgba(57,61,71,1);
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 40px 2%;
+    -moz-box-shadow: 3px 3px 3px 2px #121225;
+    -webkit-box-shadow: 3px 3px 3px 2px #121225;
+    box-shadow: 3px 3px 3px 2px #121225;
+}
+.menuItem a,.menuItem a:visited{
+    display: block;
+    height: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 120%;
+    color: #FFFFFF;
+}
+#description{
+    color: white;
+    font-size: 140%;
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+#footer
+{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: #858585;
+    background-color: #262626;
+    width:100%;
+    height: 40px;
+    font-size: 90%;
+}
+

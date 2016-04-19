@@ -1,0 +1,9 @@
+#imgs{
+    width: 60%;
+    margin: 40px auto;
+    min-width: 900px;
+}
+#imgs img{
+    width: 100%;
+    height: auto;
+}

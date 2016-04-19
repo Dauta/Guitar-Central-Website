@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="mainStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="contactStyle.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="buttonAnimate.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="banner">
+            <img id="bannerImg1" src="images/banner.png"/>
+            <h1 id="bannerMsg">Welcome to Guitar Central</h1>
+            <img id="bannerImg2" src="images/banner.png"/>
+        </div>
+        <div id="menu">
+            <div id="menuWrapper">
+                <div class="menuItem"><a href="home.html">Home</a></div>
+                <div class="menuItem"><a href="products.html">Products</a></div>
+                <div class="menuItem"><a href="services.html">Services</a></div>
+                <div class="menuItem"><a href="about.html">About</a></div>
+                <div class="menuItem"><a href="contact.html">Contact</a></div>
+            </div>
+        </div>
+    </div>
+    <div id="description">
+        <h1>Contact Us</h1>
+        <p>Have any question on requests? Reach out to us by filling out the form below</p>
+    </div>
+    <div id="main">
+        <form method="get" action="success.html" id="mainForm">
+
+            <table id="form_table">
+                <tr style="overflow: hidden; min-width: 60%;">
+                    <td><input class="fields" type="text" id="username" placeholder="Username..." size="30"></td>
+                </tr>
+                <tr>
+                    <td><input class="fields" type="password" id="pass" placeholder="Password..." size="30"></td>
+                </tr>
+                <tr>
+                    <td><input class="fields" type="password" id="passtwo" placeholder="Retype Password..." size="30"></td>
+                </tr>
+                <tr>
+                    <td><input class="fields" type="text" id="email" placeholder="Email address..." size="30"></td>
+                </tr>
+                <tr>
+                    <td><textarea class="fields" id="message" placeholder="Your Message..." cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr><td ><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+    <div id="footer">
+        <p>&copy Irakli Dautashvili | AUBG | 2016</p>
+    </div>
+</body>
+</html>
